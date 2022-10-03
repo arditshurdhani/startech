@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Buynow</title>
+</head>
+<body>
+      <form method="get">
+  <fieldset>
+    <legend><h3>Personal data:</h3></legend>
+    
+    <label for="fname">Firstname: </label>
+      <input type="text" id="fname" name="fname"><br/><br/>
+    <label for="lname">Lastname: </label>
+      <input type="text" id="lname" name="lname"><br/><br/>
+    <label for="phone">Phone Number: </label>
+      <input type="tel" id="phone" name="phone" placeholder="111-222-333"><br/><br/>
+    <label for="email">E-mail adress:</label>
+      <input type="email" id="email" name="email">
+  </fieldset>
+
+  <fieldset>
+    <legend><h3>Phones:</h3></legend>
+        <label>Choose your phone: </label>
+        <select name="Phone" id="Phone">
+          <optgroup label="Iphone"></optgroup>
+          <option value="14 Pro">14 Pro</option>
+          <option value="14 Pro Max">14 Pro Max</option>
+          <optgroup label="Samsung"></optgroup>
+          <option value="S22 ULTRA 5">S22 ULTRA 5</option>
+          <option value="S21 ULTRA 4">S21 ULTRA 4</option>
+        </select><br/><br/>
+        <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+        <label for="favcolor">Fav. Color:</label>
+          <input type="color" id="favcolor" name="favcolor" value="#9043A3">
+  </fieldset>
+
+  <fieldset>
+    <legend><h3>Additional information:</h3></legend>
+        <p>A gift for you!</p>
+        <input type="radio" id="airpods" name="" value="airpods">
+          <label for="airpods">Airpods</label><br>
+        <input type="radio" id="applewatch" name="" value="applewatch">
+          <label for="applewatch">Apple Watch</label><br>
+        <input type="radio" id="smartwatch" name="" value="smartwatch">
+          <label for="smartwatch">Smart Watch</label><br/><br/>
+
+            <label for="data">Order date:</label>
+            <input type="date" id="" name=""><br/><br/>
+            <label for="adress">Adress:</label>
+            <input type="text" id="" name=""><br/>
+            <p><label for="text">Any request?</label></p>
+            <textarea name="text" rows="3" cols="40" >-Here you can mark the request.</textarea> 
+  </fieldset>
+
+  <br />
+
+  <button type="submit">Submit</button>
+  
+  <button type="reset">Reset</button>
+</form>
+
+</body>
+</html>

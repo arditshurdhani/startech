@@ -1,0 +1,21 @@
+* {
+    background-image: url(image/photo2.webp);
+
+}
+
+h1, h3{
+    color: red
+}
+
+a {
+    color: blue;
+}
+
+.container, .container2 {
+    color: rgb(242, 242, 242);
+    display: inline-table;
+}
+
+p {
+    text-align: center;
+}
