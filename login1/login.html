@@ -10,7 +10,7 @@
 <body>
       <form method="get">
   <fieldset>
-    <legend><h3>Personal data:</h3></legend>
+    <legend><h2>Personal data:</h2></legend>
     
     <label for="fname">Firstname: </label>
       <input type="text" id="fname" name="fname"><br/><br/>
@@ -23,9 +23,9 @@
   </fieldset>
 
   <fieldset>
-    <legend><h3>Phones:</h3></legend>
+    <legend><h2>Phones:</h2></legend>
         <label>Choose your phone: </label>
-        <select name="Phone" id="Phone">
+        <select name="phone" id="phones">
           <optgroup label="Iphone"></optgroup>
           <option value="14 Pro">14 Pro</option>
           <option value="14 Pro Max">14 Pro Max</option>
@@ -40,7 +40,7 @@
   </fieldset>
 
   <fieldset>
-    <legend><h3>Additional information:</h3></legend>
+    <legend><h2>Additional information:</h2></legend>
         <p>A gift for you!</p>
         <input type="radio" id="airpods" name="" value="airpods">
           <label for="airpods">Airpods</label><br>
@@ -50,17 +50,16 @@
           <label for="smartwatch">Smart Watch</label><br/><br/>
 
             <label for="data">Order date:</label>
-            <input type="date" id="" name=""><br/><br/>
+            <input type="date" id="data" name="data"><br/><br/>
             <label for="adress">Adress:</label>
-            <input type="text" id="" name=""><br/>
+            <input type="text" id="text" name="text"><br/>
             <p><label for="text">Any request?</label></p>
-            <textarea name="text" rows="3" cols="40" >-Here you can mark the request.</textarea> 
+            <textarea id="request" name="request" rows="3" cols="40" >-Here you can mark the request.</textarea> 
   </fieldset>
 
   <br />
 
   <button type="submit">Submit</button>
-  
   <button type="reset">Reset</button>
 </form>
 
