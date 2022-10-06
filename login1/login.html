@@ -8,23 +8,23 @@
     <title>Buynow</title>
 </head>
 <body>
-      <form method="get">
-  <fieldset>
+  <form method="get">
+    <fieldset>
     <legend><h2>Personal data:</h2></legend>
-    
-    <label for="fname">Firstname: </label>
-      <input type="text" id="fname" name="fname"><br/><br/>
-    <label for="lname">Lastname: </label>
-      <input type="text" id="lname" name="lname"><br/><br/>
-    <label for="phone">Phone Number: </label>
-      <input type="tel" id="phone" name="phone" placeholder="111-222-333"><br/><br/>
-    <label for="email">E-mail adress:</label>
-      <input type="email" id="email" name="email">
-  </fieldset>
+      <label for="fname">Firstname: </label>
+        <input type="text" id="fname" name="fname"><br/><br/>
+      <label for="lname">Lastname: </label>
+        <input type="text" id="lname" name="lname"><br/><br/>
+      <label for="phone">Phone Number: </label>
+        <input type="tel" id="phone" name="phone" placeholder="111-222-333"><br/><br/>
+      <label for="email">E-mail adress:</label>
+        <input type="email" id="email" name="email">
+    </fieldset>
 
-  <fieldset>
+
+    <fieldset>
     <legend><h2>Phones:</h2></legend>
-        <label>Choose your phone: </label>
+      <label>Choose your phone: </label>
         <select name="phone" id="phones">
           <optgroup label="Iphone"></optgroup>
           <option value="14 Pro">14 Pro</option>
@@ -37,30 +37,30 @@
           <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
         <label for="favcolor">Fav. Color:</label>
           <input type="color" id="favcolor" name="favcolor" value="#9043A3">
-  </fieldset>
+    </fieldset>
 
-  <fieldset>
+    <fieldset>
     <legend><h2>Additional information:</h2></legend>
-        <p>A gift for you!</p>
-        <input type="radio" id="airpods" name="" value="airpods">
+      <p>A gift for you!</p>
+        <input type="radio" id="airpods" name="gift" value="airpods">
           <label for="airpods">Airpods</label><br>
-        <input type="radio" id="applewatch" name="" value="applewatch">
+        <input type="radio" id="applewatch" name="gift" value="applewatch">
           <label for="applewatch">Apple Watch</label><br>
-        <input type="radio" id="smartwatch" name="" value="smartwatch">
+        <input type="radio" id="smartwatch" name="gift" value="smartwatch">
           <label for="smartwatch">Smart Watch</label><br/><br/>
 
-            <label for="data">Order date:</label>
+          <label for="data">Order date:</label>
             <input type="date" id="data" name="data"><br/><br/>
-            <label for="adress">Adress:</label>
+          <label for="adress">Adress:</label>
             <input type="text" id="text" name="text"><br/>
-            <p><label for="text">Any request?</label></p>
+          <p><label for="text">Any request?</label></p>
             <textarea id="request" name="request" rows="3" cols="40" >-Here you can mark the request.</textarea> 
-  </fieldset>
+    </fieldset>
 
   <br />
 
-  <button type="submit">Submit</button>
-  <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
 </form>
 
 </body>
